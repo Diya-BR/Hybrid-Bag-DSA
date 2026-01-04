@@ -1,11 +1,11 @@
 # Hybrid-Bag-DSA: Self-Balancing Multiset Indexer
 
-## 🚀 Overview
+## Overview
 This project implements a **Hybrid Data Structure** that combines the flexibility of a Singly Linked List (Bag) with the search efficiency of an **AVL Tree**. It is designed to store non-unique elements and provide $O(\log n)$ frequency lookups.
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 - **Linked List (The Bag):** Used as the primary storage layer to allow $O(1)$ insertions and handle duplicate elements.
-- **AVL Tree (The Indexer):** A self-balancing Binary Search Tree that tracks item frequencies.
+- **AVL Tree (The Indexer):** A self balancing Binary Search Tree that tracks item frequencies.
 - **Self-Balancing Logic:** Implemented **Left/Right Rotations** and **Balance Factor** checks to maintain a strict height limit, ensuring $O(\log n)$ search performance.
 - **Frequency Mapping:** Unlike standard BSTs, each node in this AVL tree stores an `item` and a `freq` counter, optimizing memory for duplicate-heavy datasets.
 
