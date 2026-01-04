@@ -15,7 +15,7 @@ This project implements a **Hybrid Data Structure** that combines the flexibilit
 | **Insertion** | $O(1)$ | $O(1)$ |
 | **Search/Frequency** | $O(n)$ | $O(\log n)$ |
 
-## 🎮 How to Run
+## How to Run
 1. Compile: `gcc main.c Project.c -o hybrid_dsa`
 2. Run: `./hybrid_dsa`
 
